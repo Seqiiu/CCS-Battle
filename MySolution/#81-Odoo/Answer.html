@@ -1,0 +1,42 @@
+<html>
+  <head>
+
+  <style>
+  body{
+    background: #191919;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 0;
+    padding-top:23px
+  }
+  div{
+    position: relative;
+    border:20px solid #8F8F8F;
+    width: 40px;
+    aspect-ratio:1;
+    margin-inline:1px;
+    border-radius:50%
+  }
+  .a{
+    border-color:#714B67;  
+  }
+  .b::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 70px;
+    border-radius: 100vw;
+    background:#8F8F8F;
+    right:-20px;
+    top: -40px;    
+  }
+</style>
+  </head>
+  <body>
+    <div class="a"></div>
+  <div class="b"></div>
+    <div></div>
+    <div></div>
+  </body>
+</html
