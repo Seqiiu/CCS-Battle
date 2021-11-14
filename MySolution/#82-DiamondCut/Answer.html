@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <style>
+            body{
+              background: #F3AC3C;
+              display: flex;
+              align-items: center;
+              justify-content:center;
+              margin: 0;
+          
+            }
+            .a {
+              position: relative;
+              transform: rotate(45deg);
+              border:30px solid #998235;
+              width: 100px;
+              height: 100px;
+          
+            }
+            .a::after{
+              content: '';
+              position: absolute;
+              width: 30px;
+              height: 30px;
+              background:#1A4341;
+              margin-top:35px;
+              margin-left:35px;
+              transform: rotate(90deg);
+            
+            }
+            .d::after{
+              transform: rotate(45deg);
+              content: '';
+              position: absolute;
+              width: 50px;
+              height: 30px;
+              background:#F3AC3C;
+              margin-top:-60px;
+              margin-left:-150px;
+            }
+            .c::after{
+              transform: rotate(45deg);
+              content: '';
+              position: absolute;
+              width: 30px;
+              height: 50px;
+              background:#F3AC3C;
+              margin-top:-65px;
+              margin-left:-55px;
+            }
+          </style>
+
+    </head>
+    <body>
+        <div class="a"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+    </body>
+</html>
