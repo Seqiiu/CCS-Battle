@@ -1,25 +1,40 @@
 <html>  
-    <head>
+    <head>      
         <style>
-
-            dir{
-                height: 200px;
-                width: 200px;
-                border-radius: 22px;
-                background: red;
-            }
+        body{ 
+        display: flex;
+            align-items: center;
+            justify-content:center;
+            background:#191919;
+            margin:0;
+        }
+        div{
+            position:absolute;
+            background:#F9E492;
+            height:200px;
+            width:200px;   
+            Border-radius:100%;
+            transform: rotate(225deg)
+        }
+        .s{
+            Border-radius:100px 0px 0px 0px;
+            margin-top:145px;
+            height:96px;
+            width:96px;
+            background:#191919;
+        }
+        .g{
+            width:200px;
+            height:200px;
+            background:#4F77FF;
+            border-radius:0px;
+            margin-top:300px 
+        }
         </style>
-
-
     </head>
-
     <body>  
-        <div>   
-
-        </div>
-
-
-
-
+        <div></div>
+        <div class="g"></div>
+        <div class="s"></div>
     </body>
 </html>
