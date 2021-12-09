@@ -1,4 +1,4 @@
-Polski SPOJ
+CSS BATTLE
 =================
 https://cssbattle.dev/
 
